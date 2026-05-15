@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a1 {
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.b1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+.b1 .c1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #1a2e35;
+}
+.b1 .f1 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.b1 .f1 a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.h1 {
+  padding: 50px 10%;
+}
+.h1 .i1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.j1 {
+  flex: 1;
+}
+.j1 .k1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f0f7ff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.j1 .k1 .l1 {
+  background: #0b4d71;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.j1 .k1 .m1 {
+  font-size: 13px;
+  color: #0b4d71;
+}
+.j1 .n1 {
+  font-size: 64px;
+  color: #0b4d71;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  font-family: "serif";
+}
+.j1 .o1 {
+  color: #717171;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.j1 .p1 {
+  background: #0b4d71;
+  color: white;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.j1 .p1:hover {
+  background: rgb(15.5241935484, 108.6693548387, 159.4758064516);
+}
+
+.q1 {
+  margin-top: 80px;
+}
+.q1 .r1 {
+  color: #b0b0b0;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.q1 .s1 {
+  display: flex;
+  gap: 30px;
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+.q1 .s1 img {
+  height: 30px;
+}
+
+.t1 {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.t1 .u1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #eef7ff;
+  border-radius: 50%;
+  z-index: -1;
+  top: -50px;
+}
+.t1 .v1 {
+  max-width: 100%;
+  height: auto;
+}
+.t1 .w1 {
+  position: absolute;
+  bottom: 20px;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.t1 .w1 .x1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0b4d71;
+}
+.t1 .w1 .y1 {
+  color: #717171;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
