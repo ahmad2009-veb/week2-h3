@@ -375,4 +375,74 @@
   font-size: 14px;
   color: #4d5f65;
   margin-top: 4px;
+}
+
+.f3 {
+  background-color: #f4f9ff;
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.g3 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.h3 {
+  flex: 1;
+  padding: 60px;
+}
+.h3 .i3 {
+  font-size: 48px;
+  color: #1a2e35;
+  font-family: "serif";
+  margin-bottom: 25px;
+}
+.h3 .j3 {
+  font-size: 18px;
+  color: #4d5f65;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 550px;
+}
+.h3 .k3 {
+  background-color: #0b4d71;
+  color: #ffffff;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+.h3 .k3:hover {
+  background-color: rgb(15.5241935484, 108.6693548387, 159.4758064516);
+}
+.h3 .k3 .l3 {
+  font-size: 20px;
+}
+
+.m3 {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.m3 .n3 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
