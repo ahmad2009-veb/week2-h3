@@ -181,3 +181,87 @@ $text-gray: #717171;
 $bg-light: #f9fcff;
 $card-shadow: rgba(0, 0, 0, 0.05);
 
+$text-dark: #1a2e35;
+$text-gray: #717171;
+$bg-light: #f9fcff;
+$card-shadow: rgba(0, 0, 0, 0.05);
+
+.z1 {
+    background-color: $bg-light;
+    padding: 100px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.a2 {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.b2 {
+    flex: 1;
+    position: sticky;
+    top: 50px;
+
+    .c2 {
+        font-size: 48px;
+        color: $text-dark;
+        font-family: 'serif';
+        margin-bottom: 25px;
+        line-height: 1.2;
+    }
+
+    .d2 {
+        font-size: 18px;
+        color: $text-gray;
+        line-height: 1.6;
+        max-width: 400px;
+    }
+}
+
+.e2 {
+    flex: 1.5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+    .f2 {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 20px 40px $card-shadow;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        .g2 {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 25px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .h2 {
+            font-size: 22px;
+            color: $text-dark;
+            margin-bottom: 15px;
+            font-family: 'serif';
+        }
+
+        .i2 {
+            font-size: 14px;
+            color: $text-gray;
+            line-height: 1.6;
+        }
+    }
+}
+
+.icon-1 { background-image: url('./Circle\ Layer.png'); }
+.icon-2 { background-image: url('./Bag.png'); }
+.icon-3 { background-image: url('./Rocket.png'); }
+.icon-4 { background-image: url('./User\ Arrows.png'); }
+
